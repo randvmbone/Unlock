@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>local.corestorage.unlock</string>
+	<key>LaunchOnlyOnce</key>
+	<true/>
+	<key>OnDemand</key>
+	<false/>
+	<key>Program</key>
+	<string>/Library/PrivilegedHelperTools/local.corestorage.unlock</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ServiceDescription</key>
+	<string>Unlock CoreStorage volumes during boot</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/local.corestorage.unlock.log</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/local.corestorage.unlock.log</string>
+</dict>
+</plist>
